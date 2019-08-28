@@ -3,5 +3,5 @@ def reverse_each_word(array)
 end
 
 def reverse_each_word(array)
-  array.split("").collect {|x| x.reverse!}.join("")
+  array.split("").each {|x| x.reverse!}.join("")
 end
